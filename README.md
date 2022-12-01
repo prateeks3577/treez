@@ -5,8 +5,13 @@
     1. [Sub paragraph](#subparagraph1)
 3. [Another paragraph](#paragraph2)
 
-## This is the introduction <a name="howtouse"></a>
-Some introduction text, formatted in heading 2 style
+## How to use? <a name="howtouse"></a>
+### Prerequisites
+- can run only on windows
+- python 3.9 should be installed
+### Steps
+- run startserver.bat, this will install all necesary packages and start flask which will run on port 127.0.0.1:5000
+- run startclient.bat, this will run one client and some test cases, can always check DB sanity by running different options
 
 ## Some paragraph <a name="paragraph1"></a>
 The first paragraph text
