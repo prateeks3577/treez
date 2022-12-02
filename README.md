@@ -85,3 +85,4 @@ server.py - contains all server elements
 client.py - contains all client implementation
 startserver.bat - starts server
 startclient.bat - starts client
+schema.sql - schema of the database
