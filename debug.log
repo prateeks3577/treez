@@ -1,0 +1,459 @@
+2022-12-02 03:07:27,645:Thread-1 (process_request_thread):init: initing DB and creating tables
+2022-12-02 03:07:27,705:Thread-1 (process_request_thread):init: adding default account and first transaction for 4000 
+2022-12-02 03:07:27,713:Thread-1 (process_request_thread):init: creating 5 accounts with 800 balance
+2022-12-02 03:07:27,713:Thread-1 (process_request_thread):server: checking sanity
+2022-12-02 03:07:27,713:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:07:27,713:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:07:27,713:Thread-1 (process_request_thread):server: validating if amount is positive 3200
+2022-12-02 03:07:27,823:Thread-1 (process_request_thread):server: checking sanity
+2022-12-02 03:07:27,824:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:07:27,824:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:07:27,824:Thread-1 (process_request_thread):server: validating if amount is positive 2400
+2022-12-02 03:07:27,907:Thread-1 (process_request_thread):server: checking sanity
+2022-12-02 03:07:27,908:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:07:27,909:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:07:27,909:Thread-1 (process_request_thread):server: validating if amount is positive 1600
+2022-12-02 03:07:27,974:Thread-1 (process_request_thread):server: checking sanity
+2022-12-02 03:07:27,975:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:07:27,975:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:07:27,975:Thread-1 (process_request_thread):server: validating if amount is positive 800
+2022-12-02 03:07:28,031:Thread-1 (process_request_thread):server: checking sanity
+2022-12-02 03:07:28,032:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:07:28,033:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:07:28,034:Thread-1 (process_request_thread):server: validating if amount is positive 0
+2022-12-02 03:07:28,093:Thread-1 (process_request_thread):init: returning all account ids created
+2022-12-02 03:07:28,099:Thread-1 (process_request_thread):127.0.0.1 - - [02/Dec/2022 03:07:28] "GET /init/4000/5 HTTP/1.1" 200 -
+2022-12-02 03:07:28,118:Thread-2 (process_request_thread):server: checking sanity
+2022-12-02 03:07:28,120:Thread-2 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:07:28,120:Thread-2 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:07:28,120:Thread-2 (process_request_thread):server: validating if amount is positive 700
+2022-12-02 03:07:28,176:Thread-2 (process_request_thread):127.0.0.1 - - [02/Dec/2022 03:07:28] "POST /transfer/1001/1002/100 HTTP/1.1" 200 -
+2022-12-02 03:08:43,592:MainThread:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-02 03:08:43,592:MainThread:[33mPress CTRL+C to quit[0m
+2022-12-02 03:08:48,764:Thread-1 (process_request_thread):init: initing DB and creating tables
+2022-12-02 03:08:48,822:Thread-1 (process_request_thread):init: adding default account and first transaction for 4000 
+2022-12-02 03:08:48,830:Thread-1 (process_request_thread):init: creating 5 accounts with 800 balance
+2022-12-02 03:08:48,830:Thread-1 (process_request_thread):server: checking sanity
+2022-12-02 03:08:48,830:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:08:48,830:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:08:48,830:Thread-1 (process_request_thread):server: validating if amount is positive 3200
+2022-12-02 03:08:48,838:Thread-1 (process_request_thread):server: checking sanity
+2022-12-02 03:08:48,838:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:08:48,846:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:08:48,846:Thread-1 (process_request_thread):server: validating if amount is positive 2400
+2022-12-02 03:08:48,854:Thread-1 (process_request_thread):server: checking sanity
+2022-12-02 03:08:48,854:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:08:48,854:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:08:48,854:Thread-1 (process_request_thread):server: validating if amount is positive 1600
+2022-12-02 03:08:48,862:Thread-1 (process_request_thread):server: checking sanity
+2022-12-02 03:08:48,862:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:08:48,862:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:08:48,862:Thread-1 (process_request_thread):server: validating if amount is positive 800
+2022-12-02 03:08:48,871:Thread-1 (process_request_thread):server: checking sanity
+2022-12-02 03:08:48,871:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:08:48,871:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:08:48,871:Thread-1 (process_request_thread):server: validating if amount is positive 0
+2022-12-02 03:08:48,881:Thread-1 (process_request_thread):init: returning all account ids created
+2022-12-02 03:08:48,881:Thread-1 (process_request_thread):127.0.0.1 - - [02/Dec/2022 03:08:48] "GET /init/4000/5 HTTP/1.1" 200 -
+2022-12-02 03:08:48,890:Thread-2 (process_request_thread):server: checking sanity
+2022-12-02 03:08:48,890:Thread-2 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:08:48,890:Thread-2 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:08:48,890:Thread-2 (process_request_thread):server: validating if amount is positive 700
+2022-12-02 03:08:48,903:Thread-2 (process_request_thread):127.0.0.1 - - [02/Dec/2022 03:08:48] "POST /transfer/1001/1002/100 HTTP/1.1" 200 -
+2022-12-02 03:09:03,281:MainThread:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-02 03:09:03,281:MainThread:[33mPress CTRL+C to quit[0m
+2022-12-02 03:09:05,014:Thread-1 (process_request_thread):init: initing DB and creating tables
+2022-12-02 03:09:05,086:Thread-1 (process_request_thread):init: adding default account and first transaction for 4000 
+2022-12-02 03:09:05,094:Thread-1 (process_request_thread):init: creating 5 accounts with 800 balance
+2022-12-02 03:09:05,094:Thread-1 (process_request_thread):server: checking sanity
+2022-12-02 03:09:05,094:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:09:05,094:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:09:05,094:Thread-1 (process_request_thread):server: validating if amount is positive 3200
+2022-12-02 03:09:05,107:Thread-1 (process_request_thread):server: checking sanity
+2022-12-02 03:09:05,107:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:09:05,107:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:09:05,107:Thread-1 (process_request_thread):server: validating if amount is positive 2400
+2022-12-02 03:09:05,122:Thread-1 (process_request_thread):server: checking sanity
+2022-12-02 03:09:05,122:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:09:05,122:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:09:05,122:Thread-1 (process_request_thread):server: validating if amount is positive 1600
+2022-12-02 03:09:05,141:Thread-1 (process_request_thread):server: checking sanity
+2022-12-02 03:09:05,141:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:09:05,141:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:09:05,141:Thread-1 (process_request_thread):server: validating if amount is positive 800
+2022-12-02 03:09:05,158:Thread-1 (process_request_thread):server: checking sanity
+2022-12-02 03:09:05,158:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:09:05,158:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:09:05,158:Thread-1 (process_request_thread):server: validating if amount is positive 0
+2022-12-02 03:09:05,174:Thread-1 (process_request_thread):init: returning all account ids created
+2022-12-02 03:09:05,174:Thread-1 (process_request_thread):127.0.0.1 - - [02/Dec/2022 03:09:05] "GET /init/4000/5 HTTP/1.1" 200 -
+2022-12-02 03:09:05,190:Thread-2 (process_request_thread):server: checking sanity
+2022-12-02 03:09:05,190:Thread-2 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:09:05,190:Thread-2 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:09:05,190:Thread-2 (process_request_thread):server: validating if amount is positive 700
+2022-12-02 03:09:05,209:Thread-2 (process_request_thread):127.0.0.1 - - [02/Dec/2022 03:09:05] "POST /transfer/1001/1002/100 HTTP/1.1" 200 -
+2022-12-02 03:09:37,522:Thread-3 (process_request_thread):init: initing DB and creating tables
+2022-12-02 03:09:37,603:Thread-3 (process_request_thread):init: adding default account and first transaction for 4000 
+2022-12-02 03:09:37,611:Thread-3 (process_request_thread):init: creating 5 accounts with 800 balance
+2022-12-02 03:09:37,611:Thread-3 (process_request_thread):server: checking sanity
+2022-12-02 03:09:37,611:Thread-3 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:09:37,611:Thread-3 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:09:37,611:Thread-3 (process_request_thread):server: validating if amount is positive 3200
+2022-12-02 03:09:37,619:Thread-3 (process_request_thread):server: checking sanity
+2022-12-02 03:09:37,619:Thread-3 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:09:37,619:Thread-3 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:09:37,619:Thread-3 (process_request_thread):server: validating if amount is positive 2400
+2022-12-02 03:09:37,633:Thread-3 (process_request_thread):server: checking sanity
+2022-12-02 03:09:37,633:Thread-3 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:09:37,633:Thread-3 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:09:37,633:Thread-3 (process_request_thread):server: validating if amount is positive 1600
+2022-12-02 03:09:37,651:Thread-3 (process_request_thread):server: checking sanity
+2022-12-02 03:09:37,651:Thread-3 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:09:37,651:Thread-3 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:09:37,651:Thread-3 (process_request_thread):server: validating if amount is positive 800
+2022-12-02 03:09:37,659:Thread-3 (process_request_thread):server: checking sanity
+2022-12-02 03:09:37,659:Thread-3 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:09:37,659:Thread-3 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:09:37,659:Thread-3 (process_request_thread):server: validating if amount is positive 0
+2022-12-02 03:09:37,670:Thread-3 (process_request_thread):init: returning all account ids created
+2022-12-02 03:09:37,670:Thread-3 (process_request_thread):127.0.0.1 - - [02/Dec/2022 03:09:37] "GET /init/4000/5 HTTP/1.1" 200 -
+2022-12-02 03:09:37,682:Thread-4 (process_request_thread):server: checking sanity
+2022-12-02 03:09:37,682:Thread-4 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:09:37,682:Thread-4 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:09:37,682:Thread-4 (process_request_thread):server: validating if amount is positive 700
+2022-12-02 03:09:37,707:Thread-4 (process_request_thread):127.0.0.1 - - [02/Dec/2022 03:09:37] "POST /transfer/1001/1002/100 HTTP/1.1" 200 -
+2022-12-02 03:09:37,722:Thread-5 (process_request_thread):server: checking sanity
+2022-12-02 03:09:37,726:Thread-5 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:09:37,728:Thread-5 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:09:37,728:Thread-5 (process_request_thread):server: validating if amount is positive 600
+2022-12-02 03:09:37,730:Thread-5 (process_request_thread):127.0.0.1 - - [02/Dec/2022 03:09:37] "POST /transfer/1001/1002/100 HTTP/1.1" 200 -
+2022-12-02 03:11:12,129:Thread-6 (process_request_thread):init: initing DB and creating tables
+2022-12-02 03:11:12,193:Thread-6 (process_request_thread):init: adding default account and first transaction for 4000 
+2022-12-02 03:11:12,193:Thread-6 (process_request_thread):init: creating 5 accounts with 800 balance
+2022-12-02 03:11:12,201:Thread-6 (process_request_thread):server: checking sanity
+2022-12-02 03:11:12,201:Thread-6 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:11:12,201:Thread-6 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:11:12,201:Thread-6 (process_request_thread):server: validating if amount is positive 3200
+2022-12-02 03:11:12,209:Thread-6 (process_request_thread):server: checking sanity
+2022-12-02 03:11:12,209:Thread-6 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:11:12,209:Thread-6 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:11:12,209:Thread-6 (process_request_thread):server: validating if amount is positive 2400
+2022-12-02 03:11:12,228:Thread-6 (process_request_thread):server: checking sanity
+2022-12-02 03:11:12,228:Thread-6 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:11:12,228:Thread-6 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:11:12,228:Thread-6 (process_request_thread):server: validating if amount is positive 1600
+2022-12-02 03:11:12,237:Thread-6 (process_request_thread):server: checking sanity
+2022-12-02 03:11:12,245:Thread-6 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:11:12,245:Thread-6 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:11:12,245:Thread-6 (process_request_thread):server: validating if amount is positive 800
+2022-12-02 03:11:12,261:Thread-6 (process_request_thread):server: checking sanity
+2022-12-02 03:11:12,261:Thread-6 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:11:12,261:Thread-6 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:11:12,261:Thread-6 (process_request_thread):server: validating if amount is positive 0
+2022-12-02 03:11:12,274:Thread-6 (process_request_thread):init: returning all account ids created
+2022-12-02 03:11:12,274:Thread-6 (process_request_thread):127.0.0.1 - - [02/Dec/2022 03:11:12] "GET /init/4000/5 HTTP/1.1" 200 -
+2022-12-02 03:11:12,291:Thread-7 (process_request_thread):server: checking sanity
+2022-12-02 03:11:12,291:Thread-7 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:11:12,299:Thread-7 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:11:12,299:Thread-7 (process_request_thread):server: validating if amount is positive 700
+2022-12-02 03:11:12,318:Thread-7 (process_request_thread):127.0.0.1 - - [02/Dec/2022 03:11:12] "POST /transfer/1001/1002/100 HTTP/1.1" 200 -
+2022-12-02 03:11:12,334:Thread-8 (process_request_thread):server: checking sanity
+2022-12-02 03:11:12,336:Thread-8 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:11:12,336:Thread-8 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:11:12,336:Thread-8 (process_request_thread):server: validating if amount is positive -200
+2022-12-02 03:11:12,338:Thread-8 (process_request_thread):127.0.0.1 - - [02/Dec/2022 03:11:12] "POST /transfer/1001/1002/900 HTTP/1.1" 200 -
+2022-12-02 03:11:12,353:Thread-9 (process_request_thread):server: checking sanity
+2022-12-02 03:11:12,353:Thread-9 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:11:12,353:Thread-9 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:11:12,353:Thread-9 (process_request_thread):server: validating if amount is positive 600
+2022-12-02 03:11:12,353:Thread-9 (process_request_thread):127.0.0.1 - - [02/Dec/2022 03:11:12] "POST /transfer/1001/1002/100 HTTP/1.1" 200 -
+2022-12-02 03:16:10,565:MainThread:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-02 03:16:10,566:MainThread:[33mPress CTRL+C to quit[0m
+2022-12-02 03:16:10,719:Thread-1 (process_request_thread):init: initing DB and creating tables
+2022-12-02 03:16:10,813:Thread-1 (process_request_thread):init: adding default account and first transaction for 4000 
+2022-12-02 03:16:10,822:Thread-1 (process_request_thread):init: creating 5 accounts with 800 balance
+2022-12-02 03:16:10,824:Thread-1 (process_request_thread):server: checking sanity
+2022-12-02 03:16:10,825:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:16:10,825:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:16:10,826:Thread-1 (process_request_thread):server: validating if amount is positive 3200
+2022-12-02 03:16:10,841:Thread-1 (process_request_thread):server: checking sanity
+2022-12-02 03:16:10,841:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:16:10,841:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:16:10,841:Thread-1 (process_request_thread):server: validating if amount is positive 2400
+2022-12-02 03:16:10,856:Thread-1 (process_request_thread):server: checking sanity
+2022-12-02 03:16:10,857:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:16:10,857:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:16:10,857:Thread-1 (process_request_thread):server: validating if amount is positive 1600
+2022-12-02 03:16:10,872:Thread-1 (process_request_thread):server: checking sanity
+2022-12-02 03:16:10,873:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:16:10,874:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:16:10,874:Thread-1 (process_request_thread):server: validating if amount is positive 800
+2022-12-02 03:16:10,890:Thread-1 (process_request_thread):server: checking sanity
+2022-12-02 03:16:10,891:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:16:10,891:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:16:10,892:Thread-1 (process_request_thread):server: validating if amount is positive 0
+2022-12-02 03:16:10,902:Thread-1 (process_request_thread):init: returning all account ids created
+2022-12-02 03:16:10,902:Thread-1 (process_request_thread):127.0.0.1 - - [02/Dec/2022 03:16:10] "GET /init/4000/5 HTTP/1.1" 200 -
+2022-12-02 03:16:10,914:Thread-2 (process_request_thread):server: checking sanity
+2022-12-02 03:16:10,914:Thread-2 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:16:10,914:Thread-2 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:16:10,914:Thread-2 (process_request_thread):server: validating if amount is positive 700
+2022-12-02 03:16:10,932:Thread-2 (process_request_thread):127.0.0.1 - - [02/Dec/2022 03:16:10] "POST /transfer/1001/1002/100 HTTP/1.1" 200 -
+2022-12-02 03:16:10,937:Thread-3 (process_request_thread):server: checking sanity
+2022-12-02 03:16:10,940:Thread-3 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:16:10,940:Thread-3 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:16:10,940:Thread-3 (process_request_thread):server: validating if amount is positive -200
+2022-12-02 03:16:10,940:Thread-3 (process_request_thread):127.0.0.1 - - [02/Dec/2022 03:16:10] "POST /transfer/1001/1002/900 HTTP/1.1" 200 -
+2022-12-02 03:16:10,953:Thread-4 (process_request_thread):server: checking sanity
+2022-12-02 03:16:10,953:Thread-4 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:16:10,954:Thread-4 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:16:10,954:Thread-4 (process_request_thread):server: validating if amount is positive 600
+2022-12-02 03:16:10,955:Thread-4 (process_request_thread):127.0.0.1 - - [02/Dec/2022 03:16:10] "POST /transfer/1001/1002/100 HTTP/1.1" 200 -
+2022-12-02 03:25:50,100:MainThread:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-02 03:25:50,100:MainThread:[33mPress CTRL+C to quit[0m
+2022-12-02 03:25:51,372:Thread-1 (process_request_thread):init: initing DB and creating tables
+2022-12-02 03:25:51,434:Thread-1 (process_request_thread):init: adding default account and first transaction for 4000 
+2022-12-02 03:25:51,438:Thread-1 (process_request_thread):init: creating 5 accounts with 800 balance
+2022-12-02 03:25:51,438:Thread-1 (process_request_thread):server: checking TRANSFER
+2022-12-02 03:25:51,438:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:25:51,438:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:25:51,438:Thread-1 (process_request_thread):server: validating if amount is positive 3200
+2022-12-02 03:25:51,449:Thread-1 (process_request_thread):server: checking TRANSFER
+2022-12-02 03:25:51,449:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:25:51,449:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:25:51,449:Thread-1 (process_request_thread):server: validating if amount is positive 2400
+2022-12-02 03:25:51,452:Thread-1 (process_request_thread):server: checking TRANSFER
+2022-12-02 03:25:51,452:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:25:51,452:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:25:51,452:Thread-1 (process_request_thread):server: validating if amount is positive 1600
+2022-12-02 03:25:51,463:Thread-1 (process_request_thread):server: checking TRANSFER
+2022-12-02 03:25:51,463:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:25:51,463:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:25:51,463:Thread-1 (process_request_thread):server: validating if amount is positive 800
+2022-12-02 03:25:51,463:Thread-1 (process_request_thread):server: checking TRANSFER
+2022-12-02 03:25:51,463:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:25:51,463:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:25:51,463:Thread-1 (process_request_thread):server: validating if amount is positive 0
+2022-12-02 03:25:51,477:Thread-1 (process_request_thread):init: returning all account ids created
+2022-12-02 03:25:51,477:Thread-1 (process_request_thread):127.0.0.1 - - [02/Dec/2022 03:25:51] "GET /init/4000/5 HTTP/1.1" 200 -
+2022-12-02 03:25:51,477:Thread-2 (process_request_thread):server: checking TRANSFER
+2022-12-02 03:25:51,477:Thread-2 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:25:51,477:Thread-2 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:25:51,477:Thread-2 (process_request_thread):server: validating if amount is positive 700
+2022-12-02 03:25:51,490:Thread-2 (process_request_thread):127.0.0.1 - - [02/Dec/2022 03:25:51] "POST /transfer/1001/1002/100 HTTP/1.1" 200 -
+2022-12-02 03:25:51,504:Thread-3 (process_request_thread):server: checking TRANSFER
+2022-12-02 03:25:51,504:Thread-3 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:25:51,504:Thread-3 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:25:51,504:Thread-3 (process_request_thread):server: validating if amount is positive -200
+2022-12-02 03:25:51,504:Thread-3 (process_request_thread):127.0.0.1 - - [02/Dec/2022 03:25:51] "POST /transfer/1001/1002/900 HTTP/1.1" 200 -
+2022-12-02 03:25:51,504:Thread-4 (process_request_thread):server: checking TRANSFER
+2022-12-02 03:25:51,504:Thread-4 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:25:51,504:Thread-4 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:25:51,504:Thread-4 (process_request_thread):server: validating if amount is positive 600
+2022-12-02 03:25:51,504:Thread-4 (process_request_thread):127.0.0.1 - - [02/Dec/2022 03:25:51] "POST /transfer/1001/1002/100 HTTP/1.1" 200 -
+2022-12-02 03:25:51,521:Thread-5 (process_request_thread):checking sanity
+2022-12-02 03:25:51,521:Thread-5 (process_request_thread):server: checking SANITY
+2022-12-02 03:25:51,523:Thread-5 (process_request_thread):127.0.0.1 - - [02/Dec/2022 03:25:51] "POST /sanity HTTP/1.1" 200 -
+2022-12-02 03:27:16,976:MainThread:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-02 03:27:16,976:MainThread:[33mPress CTRL+C to quit[0m
+2022-12-02 03:27:18,612:Thread-1 (process_request_thread):init: initing DB and creating tables
+2022-12-02 03:27:18,672:Thread-1 (process_request_thread):init: adding default account and first transaction for 4000 
+2022-12-02 03:27:18,672:Thread-1 (process_request_thread):init: creating 5 accounts with 800 balance
+2022-12-02 03:27:18,672:Thread-1 (process_request_thread):server: checking TRANSFER
+2022-12-02 03:27:18,672:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:27:18,672:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:27:18,672:Thread-1 (process_request_thread):server: validating if amount is positive 3200
+2022-12-02 03:27:18,672:Thread-1 (process_request_thread):server: checking TRANSFER
+2022-12-02 03:27:18,672:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:27:18,672:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:27:18,672:Thread-1 (process_request_thread):server: validating if amount is positive 2400
+2022-12-02 03:27:18,688:Thread-1 (process_request_thread):server: checking TRANSFER
+2022-12-02 03:27:18,688:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:27:18,688:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:27:18,688:Thread-1 (process_request_thread):server: validating if amount is positive 1600
+2022-12-02 03:27:18,698:Thread-1 (process_request_thread):server: checking TRANSFER
+2022-12-02 03:27:18,698:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:27:18,698:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:27:18,698:Thread-1 (process_request_thread):server: validating if amount is positive 800
+2022-12-02 03:27:18,714:Thread-1 (process_request_thread):server: checking TRANSFER
+2022-12-02 03:27:18,715:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:27:18,715:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:27:18,715:Thread-1 (process_request_thread):server: validating if amount is positive 0
+2022-12-02 03:27:18,716:Thread-1 (process_request_thread):init: returning all account ids created
+2022-12-02 03:27:18,716:Thread-1 (process_request_thread):127.0.0.1 - - [02/Dec/2022 03:27:18] "GET /init/4000/5 HTTP/1.1" 200 -
+2022-12-02 03:27:18,734:Thread-2 (process_request_thread):server: checking TRANSFER
+2022-12-02 03:27:18,734:Thread-2 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:27:18,734:Thread-2 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:27:18,734:Thread-2 (process_request_thread):server: validating if amount is positive 700
+2022-12-02 03:27:18,743:Thread-2 (process_request_thread):127.0.0.1 - - [02/Dec/2022 03:27:18] "POST /transfer/1001/1002/100 HTTP/1.1" 200 -
+2022-12-02 03:27:18,759:Thread-3 (process_request_thread):server: checking TRANSFER
+2022-12-02 03:27:18,760:Thread-3 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:27:18,760:Thread-3 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:27:18,760:Thread-3 (process_request_thread):server: validating if amount is positive -200
+2022-12-02 03:27:18,761:Thread-3 (process_request_thread):127.0.0.1 - - [02/Dec/2022 03:27:18] "POST /transfer/1001/1002/900 HTTP/1.1" 200 -
+2022-12-02 03:27:18,761:Thread-4 (process_request_thread):server: checking TRANSFER
+2022-12-02 03:27:18,761:Thread-4 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:27:18,761:Thread-4 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:27:18,761:Thread-4 (process_request_thread):server: validating if amount is positive 600
+2022-12-02 03:27:18,761:Thread-4 (process_request_thread):127.0.0.1 - - [02/Dec/2022 03:27:18] "POST /transfer/1001/1002/100 HTTP/1.1" 200 -
+2022-12-02 03:27:18,777:Thread-5 (process_request_thread):checking sanity
+2022-12-02 03:27:18,777:Thread-5 (process_request_thread):server: checking SANITY
+2022-12-02 03:27:18,784:Thread-5 (process_request_thread):Exception on /sanity [POST]
+Traceback (most recent call last):
+  File "C:\PROJECT\treez\env\Lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PROJECT\treez\env\Lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PROJECT\treez\env\Lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PROJECT\treez\env\Lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PROJECT\treez\server.py", line 399, in sanity
+    response = SANITY()
+               ^^^^^^^^
+  File "C:\PROJECT\treez\server.py", line 200, in SANITY
+    creditsum = creditsum+credits
+                ~~~~~~~~~^~~~~~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'list'
+2022-12-02 03:27:18,797:Thread-5 (process_request_thread):127.0.0.1 - - [02/Dec/2022 03:27:18] "[35m[1mPOST /sanity HTTP/1.1[0m" 500 -
+2022-12-02 03:28:28,630:MainThread:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-02 03:28:28,630:MainThread:[33mPress CTRL+C to quit[0m
+2022-12-02 03:28:31,110:Thread-1 (process_request_thread):init: initing DB and creating tables
+2022-12-02 03:28:31,156:Thread-1 (process_request_thread):init: adding default account and first transaction for 4000 
+2022-12-02 03:28:31,160:Thread-1 (process_request_thread):init: creating 5 accounts with 800 balance
+2022-12-02 03:28:31,160:Thread-1 (process_request_thread):server: checking TRANSFER
+2022-12-02 03:28:31,160:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:28:31,160:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:28:31,160:Thread-1 (process_request_thread):server: validating if amount is positive 3200
+2022-12-02 03:28:31,163:Thread-1 (process_request_thread):server: checking TRANSFER
+2022-12-02 03:28:31,163:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:28:31,163:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:28:31,163:Thread-1 (process_request_thread):server: validating if amount is positive 2400
+2022-12-02 03:28:31,173:Thread-1 (process_request_thread):server: checking TRANSFER
+2022-12-02 03:28:31,173:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:28:31,173:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:28:31,173:Thread-1 (process_request_thread):server: validating if amount is positive 1600
+2022-12-02 03:28:31,183:Thread-1 (process_request_thread):server: checking TRANSFER
+2022-12-02 03:28:31,183:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:28:31,183:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:28:31,183:Thread-1 (process_request_thread):server: validating if amount is positive 800
+2022-12-02 03:28:31,189:Thread-1 (process_request_thread):server: checking TRANSFER
+2022-12-02 03:28:31,189:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:28:31,189:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:28:31,189:Thread-1 (process_request_thread):server: validating if amount is positive 0
+2022-12-02 03:28:31,191:Thread-1 (process_request_thread):init: returning all account ids created
+2022-12-02 03:28:31,191:Thread-1 (process_request_thread):127.0.0.1 - - [02/Dec/2022 03:28:31] "GET /init/4000/5 HTTP/1.1" 200 -
+2022-12-02 03:28:31,191:Thread-2 (process_request_thread):server: checking TRANSFER
+2022-12-02 03:28:31,191:Thread-2 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:28:31,191:Thread-2 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:28:31,191:Thread-2 (process_request_thread):server: validating if amount is positive 700
+2022-12-02 03:28:31,208:Thread-2 (process_request_thread):127.0.0.1 - - [02/Dec/2022 03:28:31] "POST /transfer/1001/1002/100 HTTP/1.1" 200 -
+2022-12-02 03:28:31,208:Thread-3 (process_request_thread):server: checking TRANSFER
+2022-12-02 03:28:31,208:Thread-3 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:28:31,208:Thread-3 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:28:31,208:Thread-3 (process_request_thread):server: validating if amount is positive -200
+2022-12-02 03:28:31,208:Thread-3 (process_request_thread):127.0.0.1 - - [02/Dec/2022 03:28:31] "POST /transfer/1001/1002/900 HTTP/1.1" 200 -
+2022-12-02 03:28:31,208:Thread-4 (process_request_thread):server: checking TRANSFER
+2022-12-02 03:28:31,208:Thread-4 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:28:31,208:Thread-4 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:28:31,208:Thread-4 (process_request_thread):server: validating if amount is positive 600
+2022-12-02 03:28:31,224:Thread-4 (process_request_thread):127.0.0.1 - - [02/Dec/2022 03:28:31] "POST /transfer/1001/1002/100 HTTP/1.1" 200 -
+2022-12-02 03:28:31,228:Thread-5 (process_request_thread):checking sanity
+2022-12-02 03:28:31,229:Thread-5 (process_request_thread):server: checking SANITY
+2022-12-02 03:28:31,229:Thread-5 (process_request_thread):127.0.0.1 - - [02/Dec/2022 03:28:31] "POST /sanity HTTP/1.1" 200 -
+2022-12-02 03:31:26,058:MainThread:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-02 03:31:26,061:MainThread:[33mPress CTRL+C to quit[0m
+2022-12-02 03:31:37,762:Thread-1 (process_request_thread):init: initing DB and creating tables
+2022-12-02 03:31:37,839:Thread-1 (process_request_thread):init: adding default account and first transaction for 4000 
+2022-12-02 03:31:37,845:Thread-1 (process_request_thread):init: creating 5 accounts with 800 balance
+2022-12-02 03:31:37,845:Thread-1 (process_request_thread):server: checking TRANSFER
+2022-12-02 03:31:37,845:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:31:37,845:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:31:37,845:Thread-1 (process_request_thread):server: validating if amount is positive 3200
+2022-12-02 03:31:37,863:Thread-1 (process_request_thread):server: checking TRANSFER
+2022-12-02 03:31:37,863:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:31:37,863:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:31:37,863:Thread-1 (process_request_thread):server: validating if amount is positive 2400
+2022-12-02 03:31:37,863:Thread-1 (process_request_thread):server: checking TRANSFER
+2022-12-02 03:31:37,863:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:31:37,863:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:31:37,863:Thread-1 (process_request_thread):server: validating if amount is positive 1600
+2022-12-02 03:31:37,880:Thread-1 (process_request_thread):server: checking TRANSFER
+2022-12-02 03:31:37,880:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:31:37,880:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:31:37,880:Thread-1 (process_request_thread):server: validating if amount is positive 800
+2022-12-02 03:31:37,898:Thread-1 (process_request_thread):server: checking TRANSFER
+2022-12-02 03:31:37,898:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:31:37,898:Thread-1 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:31:37,898:Thread-1 (process_request_thread):server: validating if amount is positive 0
+2022-12-02 03:31:37,898:Thread-1 (process_request_thread):init: returning all account ids created
+2022-12-02 03:31:37,898:Thread-1 (process_request_thread):127.0.0.1 - - [02/Dec/2022 03:31:37] "POST /init/4000/5 HTTP/1.1" 200 -
+2022-12-02 03:31:37,922:Thread-2 (process_request_thread):server: checking TRANSFER
+2022-12-02 03:31:37,925:Thread-2 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:31:37,925:Thread-2 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:31:37,925:Thread-2 (process_request_thread):server: validating if amount is positive 700
+2022-12-02 03:31:37,938:Thread-2 (process_request_thread):127.0.0.1 - - [02/Dec/2022 03:31:37] "POST /transfer/1001/1002/100 HTTP/1.1" 200 -
+2022-12-02 03:31:37,953:Thread-3 (process_request_thread):server: checking TRANSFER
+2022-12-02 03:31:37,953:Thread-3 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:31:37,953:Thread-3 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:31:37,953:Thread-3 (process_request_thread):server: validating if amount is positive -200
+2022-12-02 03:31:37,953:Thread-3 (process_request_thread):127.0.0.1 - - [02/Dec/2022 03:31:37] "POST /transfer/1001/1002/900 HTTP/1.1" 200 -
+2022-12-02 03:31:37,971:Thread-4 (process_request_thread):server: checking TRANSFER
+2022-12-02 03:31:37,973:Thread-4 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:31:37,974:Thread-4 (process_request_thread):server: validating if both account is valid
+2022-12-02 03:31:37,974:Thread-4 (process_request_thread):server: validating if amount is positive 600
+2022-12-02 03:31:37,974:Thread-4 (process_request_thread):127.0.0.1 - - [02/Dec/2022 03:31:37] "POST /transfer/1001/1002/100 HTTP/1.1" 200 -
+2022-12-02 03:31:37,987:Thread-5 (process_request_thread):checking sanity
+2022-12-02 03:31:37,987:Thread-5 (process_request_thread):server: checking SANITY
+2022-12-02 03:31:37,993:Thread-5 (process_request_thread):127.0.0.1 - - [02/Dec/2022 03:31:37] "GET /sanity HTTP/1.1" 200 -
+2022-12-02 04:50:23,634:MainThread:Serving on http://[::]:5000
+2022-12-02 04:50:23,634:MainThread:Serving on http://0.0.0.0:5000
+2022-12-02 04:50:41,468:waitress-0:init: initing DB and creating tables
+2022-12-02 04:50:41,497:waitress-0:init: adding default account and first transaction for 4000 
+2022-12-02 04:50:41,501:waitress-0:init: creating 5 accounts with 800 balance
+2022-12-02 04:50:41,502:waitress-0:__main__: checking TRANSFER
+2022-12-02 04:50:41,502:waitress-0:__main__: validating if both account is valid
+2022-12-02 04:50:41,503:waitress-0:__main__: validating if both account is valid
+2022-12-02 04:50:41,503:waitress-0:__main__: validating if amount is positive 3200
+2022-12-02 04:50:41,509:waitress-0:__main__: checking TRANSFER
+2022-12-02 04:50:41,509:waitress-0:__main__: validating if both account is valid
+2022-12-02 04:50:41,510:waitress-0:__main__: validating if both account is valid
+2022-12-02 04:50:41,510:waitress-0:__main__: validating if amount is positive 2400
+2022-12-02 04:50:41,515:waitress-0:__main__: checking TRANSFER
+2022-12-02 04:50:41,515:waitress-0:__main__: validating if both account is valid
+2022-12-02 04:50:41,516:waitress-0:__main__: validating if both account is valid
+2022-12-02 04:50:41,516:waitress-0:__main__: validating if amount is positive 1600
+2022-12-02 04:50:41,522:waitress-0:__main__: checking TRANSFER
+2022-12-02 04:50:41,523:waitress-0:__main__: validating if both account is valid
+2022-12-02 04:50:41,523:waitress-0:__main__: validating if both account is valid
+2022-12-02 04:50:41,523:waitress-0:__main__: validating if amount is positive 800
+2022-12-02 04:50:41,528:waitress-0:__main__: checking TRANSFER
+2022-12-02 04:50:41,529:waitress-0:__main__: validating if both account is valid
+2022-12-02 04:50:41,529:waitress-0:__main__: validating if both account is valid
+2022-12-02 04:50:41,529:waitress-0:__main__: validating if amount is positive 0
+2022-12-02 04:50:41,534:waitress-0:init: returning all account ids created
+2022-12-02 04:50:41,540:waitress-1:__main__: checking TRANSFER
+2022-12-02 04:50:41,540:waitress-1:__main__: validating if both account is valid
+2022-12-02 04:50:41,541:waitress-1:__main__: validating if both account is valid
+2022-12-02 04:50:41,541:waitress-1:__main__: validating if amount is positive 700
+2022-12-02 04:50:41,549:waitress-2:__main__: checking TRANSFER
+2022-12-02 04:50:41,549:waitress-2:__main__: validating if both account is valid
+2022-12-02 04:50:41,550:waitress-2:__main__: validating if both account is valid
+2022-12-02 04:50:41,550:waitress-2:__main__: validating if amount is positive -200
+2022-12-02 04:50:41,554:waitress-3:__main__: checking TRANSFER
+2022-12-02 04:50:41,554:waitress-3:__main__: validating if both account is valid
+2022-12-02 04:50:41,555:waitress-3:__main__: validating if both account is valid
+2022-12-02 04:50:41,555:waitress-3:__main__: validating if amount is positive 600
+2022-12-02 04:50:41,559:waitress-0:checking sanity
+2022-12-02 04:50:41,560:waitress-0:__main__: checking SANITY
