@@ -12,8 +12,8 @@
 - can run only on windows
 - python 3.9 should be installed
 ### Steps
-- run startserver.bat, this will install all necesary packages and start flask which will run on port 127.0.0.1:5000
-- run startclient.bat, this will run one client and some test cases, can always check DB sanity by running different options
+- run startserver.bat as administrator, this will install all necesary packages and start flask which will run on port 127.0.0.1:5000
+- run startclient.bat as administrator, this will run one client and some test cases, can always check DB sanity by running different options
 
 ## APIs <a name="paragraph2"></a>
 Total four APIs, this is minimal and below is description of each
