@@ -39,6 +39,7 @@ DATABASE = 'database.db'
 def get_db():
     db = getattr(g, '_database', None)
     if db is None:
+        # increased to 10 second for higher concurrency
         db = g._database = sqlite3.connect(DATABASE, timeout=10)
     return db
 
@@ -213,6 +214,32 @@ def SANITY():
     return response
 
 
+# sanity
+def STATEMENT(acc):
+    conn = get_db()
+
+    logging.debug("%s: checking statement",__name__)
+    response = {}
+    try:
+        with conn:  # manages transactino or all rollbacks!
+            debits = query_db("Fetching all transactions","SELECT * FROM TRANSACTIONS WHERE ACCOUNTID = "+str(acc))
+
+            values = []
+            for x in debits:
+                values.append({"transid":x[0],"amount":x[2],"type":x[3]})
+
+            # 6. generate a response
+            response = JSONResponse('success2',values)
+
+    except sqlite3.OperationalError as err:
+        abort(400, str(err))
+    except sqlite3.IntegrityError as err:
+        abort(400, str(err))
+    except ValidationException as err:
+        abort(400, str(err))
+
+    return response
+
 
 
 
@@ -382,10 +409,10 @@ def statement(account):
     logging.debug('%s: validating if account is valid',__name__)
     logging.debug('%s: fetching balance for %d from accounts table',__name__,account)
     logging.debug('%s: fetching all the transactions for this account',__name__)
+    
+    response = STATEMENT(account)
+    return jsonify(response.GenerateJSONDict())
 
-    return {
-        "status": "Success"
-    }
 
 @app.route("/sanity", methods=['GET'])
 def sanity():
