@@ -5,6 +5,7 @@
 4. [Response](#pararaph3) - [success](#subparagraph31), [error](#subparagraph32)
 5. [Database Model](#paragraph1)
 6. [Design Considerations](#paragraph6)
+7. [Files](#paragraph7)
 
 ## How to use? <a name="howtouse"></a>
 ### Prerequisites
@@ -76,3 +77,11 @@ logic?
 ###And so forth.
 ###How do you handle and structure the errors that you return to the client?
 - via exception handling
+
+
+## Files <a name="paragraph7"></a>
+debug.log - is used for logging
+server.py - contains all server elements
+client.py - contains all client implementation
+startserver.bat - starts server
+startclient.bat - starts client
