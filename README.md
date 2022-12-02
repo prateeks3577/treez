@@ -64,7 +64,10 @@ As per assignment , some changes have been made to the tables. In total three ta
 
 ## Design Considerations <a name="paragraph6"></a>
 ###What happens under high concurrency?
-    - under high concurrency there will be more number of transaction busy exceptions. Flask is a single thread request/response model so on development server we will not see any issue, but if we add WSGI gateway such as waitress in windows then 4 instances of flask run. To maintain concurrency here the DB has to come in picture and maintain integrity. Since all the threads will have there own cursor so the DB will fail in case some process is updating same values. Can be realized with opening multiple clients and running concurrent transactions.
+    - In this design we are reliant on sqlite3 internal handling of concurrency. As per documents if two process try to change the DB simultaneously SQLITE_BUSY Operational exception is thrown. Usually getting this is very rare as connect method waits for 5 seconds before this exception occuring. In current design one request will fail. 
+    - To fix this we can increase the number of seconds connect waits to get connection to DB. 
+    - To maintain concurrency here the DB has to come in picture and maintain integrity. Since all the threads/process will have there own cursor so the DB will fail in case some process is updating same values. Can be realized with opening multiple clients and running concurrent transactions.
+    - in current example timeout is increased to 10 seconds
 ###What happens if your database becomes unavailable in the middle of your
 logic?
 -in this case an exception will occur on commit and via exception handling status failure will be sent to client
